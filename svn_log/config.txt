@@ -1,0 +1,11 @@
+
+##查询log的svn路径
+rootDir = "svn://192.168.0.246/api/Platform_api/trunk/under/tags"
+
+## 查询log的开始时间
+startDate = "2017-08-24-14-35-06"
+
+## 查询log的终止时间
+endDate = "2018-03-24-14-35-06"
+
+saveFile = "book.xlsx"
