@@ -145,6 +145,7 @@ def getTrainList(urlRoot):
         i = i + 1
 
     print(len(value))
+    os.mkdir("./tmpSite")
 
     dirList = os.walk("./tmpSite")
     tmpResult = []
@@ -342,8 +343,8 @@ def writeToExcel():
     print("saveFile = %s" % xlsx)
 
 if __name__ == "__main__":
-    #getTrainList(RootSite + checiSubSite)
+    getTrainList(RootSite + checiSubSite)
     #MergeSearchSort()
     #delRundunt()
-    writeToExcel()
+    #writeToExcel()
 
